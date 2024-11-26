@@ -42,3 +42,13 @@ img{
     display: grid;
     gap: 10px 10px;
 }
+
+@media screen and (min-width: 772px) {
+    .grid {
+        grid-template-columns: 45% 45%;
+    }
+    img {
+        border-radius: 50%;
+    }
+    
+}
