@@ -11,6 +11,8 @@ body {
 
 figure {
     all: unset;
+    margin: 10px;
+    object-fit: cover;
 }
 
 h1 {
@@ -31,6 +33,7 @@ img{
     border: 5px solid blue;
     border-radius: 35px;
     width: 100%;
+    object-fit: cover;
   }
 
 .label{
@@ -41,6 +44,7 @@ img{
 .grid {
     display: grid;
     gap: 10px 10px;
+    justify-content:center;
 }
 
 @media screen and (min-width: 772px) {
@@ -50,5 +54,7 @@ img{
     img {
         border-radius: 50%;
     }
-    
+    .grid-item:nth-child(9){
+        grid-column-end: span2;
+    }
 }
