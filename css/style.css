@@ -51,10 +51,12 @@ img{
     .grid {
         grid-template-columns: 45% 45%;
     }
+
     img {
         border-radius: 50%;
     }
-    .grid-item:nth-child(9){
-        grid-column-end: span2;
+    
+    figure:nth-child(9) {
+        grid-column-end: span 2;
     }
 }
